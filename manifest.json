@@ -73,7 +73,9 @@
             "executionLimits": {
             }
           }
-        }
+        },
+        "title": "Slack",
+        "description": "Authorize this connector to post new channels"
       }],
       "javascriptAPIVersion": "3",
       "source": "src",
