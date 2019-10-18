@@ -1,5 +1,4 @@
 # New channel notifier
-# New Channel Notifier
 
 Transposit is an excellent tool to create operations to extend Slack. If you've ever thought "why doesn't Slack do that?" now you can use Transposit to fill the gaps. 
 This particular application keeps a record of all new public channels in your Slack workspace and publishes the list to a configurable 'new channel announcement' channel.
