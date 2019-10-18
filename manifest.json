@@ -82,10 +82,6 @@
       }],
       "javascriptAPIVersion": "3",
       "source": "src",
-      "userSettings": [{
-        "name": "announcement_channel_name",
-        "type": "STRING"
-      }],
       "userSettingsDisplay": "GENERATED"
     },
     "description": "This slack app will run every 10 minutes and post (to the channel specified in 'announcement_channel_name', for example 'announcements') any newly created public channels in the workspace. You'll need to login with your slack id, and then configure another, more privileged slack connection and the channel you want to post to (which should already exist).",
