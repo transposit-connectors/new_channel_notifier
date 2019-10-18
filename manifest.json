@@ -79,10 +79,6 @@
       }],
       "javascriptAPIVersion": "3",
       "source": "src",
-      "userSettings": [{
-        "name": "announcement_channel_names",
-        "type": "STRING"
-      }],
       "userSettingsDisplay": "GENERATED"
     }
   }
