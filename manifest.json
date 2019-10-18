@@ -88,7 +88,7 @@
       }],
       "userSettingsDisplay": "GENERATED"
     },
-    "description": "This slack app will run every 10 minutes and post (to a configurable channel) any newly created public channels in the workspace. You'll need to login with your slack id, and then configure another, more privileged slack connection and the channel you want to post to (which should already exist).",
+    "description": "This slack app will run every 10 minutes and post (to the channel named in announcement_channel_name, for example 'announcments') any newly created public channels in the workspace. You'll need to login with your slack id, and then configure another, more privileged slack connection and the channel you want to post to (which should already exist).",
     "displayName": "New channel notifier"
   }
 }
