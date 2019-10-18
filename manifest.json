@@ -35,7 +35,7 @@
             "type": "STRING",
             "required": true
           }],
-          "tql": "SELECT * FROM slack.post_chat_message\n  WHERE $body=(SELECT {\n    'channel' : @new_channel_announcement_channel,\n    'text' : 'New channels: '+@list_of_formatted_channel_ids\n  })\n"
+          "tql": "SELECT * FROM slack.post_chat_message\n  WHERE $body=(SELECT {\n    'channel' : @new_channel_announcement_channel,\n    'text' : 'New channel(s): '+@list_of_formatted_channel_ids\n  })\n"
         }
       }, {
         "id": "scheduled_job",
