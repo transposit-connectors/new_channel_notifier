@@ -9,7 +9,7 @@
   });
   
   if (new_channels.length > 0) {
-  const new_channel_announcement_channel = user_setting.get('announcement_channel_name');
+  const new_channel_announcement_channel = user_setting.get('ann_channel_name');
   const formatted_ids = new_channels.map((id) => {
      return "<#"+id+">";
   }).join(", ").replace(",$","");
